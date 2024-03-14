@@ -72,7 +72,7 @@ def client_http_head(url):
 
     # requête head
     reponse = requests.head(url)
-    # verifiez que le statut de la réponse est 
+    # verifiez que le statut de la réponse est correct
     if reponse.status_code != 200:
         print("url est pas valide")
 
