@@ -98,3 +98,4 @@ def client_http_options(url):
         print("url est pas valide")
 
 
+client_http_options("https://docs.python-requests.org/en/latest/api/")
