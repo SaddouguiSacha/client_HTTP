@@ -84,7 +84,7 @@ def client_http_head(url):
         print(reponse.headers)
 def client_http_options(url):
 
-    # requête options
+    # requête option
     reponse = requests.options(url)
     # verifiez que le statut de la réponse est correct
 
